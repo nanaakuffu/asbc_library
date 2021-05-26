@@ -1,0 +1,47 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+{% load static %}
+    <div class="container bg bg-white">
+        <center>
+            <H1>
+               ASBC LIBRARY
+            </H1>
+            <H2>
+                Welcome to the All Souls Baptist Church library
+            </H2> <br>
+            <h4>
+                Our aim is to make your reading experience interesting, continuous and convenient. <br>
+                Via this portal you can :
+            </h4>
+            <h5>
+                <ul>
+                    Create a Reader account<br>
+                    Search the library catalog<br>
+                    Request a book issuance<br>
+                    Return a borrowed book<br>                    
+                </ul>
+            </h5>
+            <br> <br>
+            <span style="position:relative; right: 0%">
+                <marquee width="65%" direction="up" height="100px">
+                    This can be anything or content you desire. <br> and customized to meet you desires.
+                </marquee>
+            </span>
+            <footer>
+                {% load static %}
+                <marquee behavior="scroll" direction="left" scrollamount="6.5">
+                        <img src="{% static 'Cover Asbc.png' %}" width="180px" height="140px">
+                    <img src="{% static '1.jpg' %}" width="180px" height="140px">
+                    <img src="{% static '2.jpg' %}" width="180px" height="140px">
+                    <img src="{% static '3.jpeg' %}" width="180px" height="140px">
+                    <img src="{% static '4.jpg' %}" width="180px" height="140px">
+                    <img src="{% static '5.jpg' %}" width="180px" height="140px">
+                    <img src="{% static '6.jpg' %}" width="180px" height="140px">
+                    <img src="{% static 'lib.png' %}" width="180px" height="140px">
+                </marquee>
+            </footer>
+
+    </div>
+    </center>    
+{% endblock %}

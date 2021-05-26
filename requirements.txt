@@ -1,0 +1,11 @@
+
+Please ensure that you meet these dependencies
+
+Django==2.2
+django-crispy-forms
+PIL
+VENV
+
+NB: Advised to run in a virtualenv
+
+Dev by; Nii_Laatey.
